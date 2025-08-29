@@ -1,0 +1,84 @@
+.form-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form-label:nth-child(1) {
+  margin-bottom: 16px;
+  display: block;
+}
+
+.form-fieldset {
+  box-sizing: border-box;
+  margin: 0 0 24px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  width: 360px;
+  height: 78px;
+  transition: border-color 250ms ease-in-out;
+}
+
+.form-fieldset .form-label {
+  cursor: pointer;
+}
+
+input[type='number'] {
+  box-sizing: border-box;
+  display: block;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  outline: none;
+  padding: 8px 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-top: 8px;
+  transition: border-color 250ms ease-in-out;
+}
+
+input[type='number']:hover,
+.form-fieldset:hover {
+  border-color: #000000;
+}
+
+input[type='radio']:active {
+  color: #4e75ff;
+}
+
+input[type='number']:focus,
+.form-fieldset:focus-within {
+  border-color: #4e75ff;
+}
+
+.form-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: none;
+  transition: background-color 250ms ease-in-out;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  background-color: #6c8cff;
+}
